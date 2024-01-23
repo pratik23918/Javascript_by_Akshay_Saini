@@ -14,6 +14,7 @@ console.log(x);
     console.log("hello");
  }
 
+ console.log(x);
  // in the above code at line 10 output will be "undefined".
  //at line 12 function a will be called and hello gets printed.
  // at line 17 the vale of x =7 gets printed.
