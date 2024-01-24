@@ -1,4 +1,4 @@
-Temproral dead zone is the zone between the initialization and declaration of the value .
-let and const are the Temproral dead zone.
-Let and const are  in the Temproral dead zone for the time being.
+Temporal dead zone is the zone between the initialization and declaration of the value .
+let and const are the Temporal dead zone.
+Let and const are  in the Temporal dead zone for the time being.
  let and const are declared in the other memory than the global excution state.
