@@ -1,0 +1,4 @@
+Lexical memory means the memory inside the parent and the local function.
+Lexical environment is the
+  1. Local memeory + reference to the lexical environment of  parent.
+  

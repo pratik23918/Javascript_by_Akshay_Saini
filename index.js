@@ -34,5 +34,13 @@ console.log(x);
  And the this keyword also refers the global variable as a object.*/ 
 
 
-
+// chain scope & lexical environment;
+ function a(){
+    var b=10;
+    c();
+    function c(){
+        console.log(b);
+    }
+ }
+ a();
   
