@@ -1,0 +1,24 @@
+closure is a function that binds togethere with its lexical scope.
+function x(){
+ var a=7;
+ function y(){
+   console.log(a);
+ }
+  return y;
+}
+var z=x();
+console.log(z);
+
+z();
+
+// a function along with the lexical scope that was returned , and this is what 
+closure is.
+function along with its lexical scope bundled togethere is known as closure.
+
+
+// use of closure;
+->Function like once
+->Currying
+-> Module design pattern
+->Iterators
+->maintaing state in async world
